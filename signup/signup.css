@@ -1,0 +1,45 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: url('../images/signupback.png');
+}
+.main_box{
+    height: 75vh;
+    width: 25%;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+}
+.content_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    width: 75%;
+}
+.content_box img {
+    width: calc(100% - 20vh);
+    height: auto;
+    margin-top: 15vh;
+}
+.google_signin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    background: rgba(196, 196, 196,0.6);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.google_signin img {
+    width: calc(100% - 30vh);
+    height: auto;
+   margin-top: 0;
+}
+.content_box a{
+        color: #4169E1;
+        text-decoration: none;
+}
