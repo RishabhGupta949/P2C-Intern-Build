@@ -219,7 +219,7 @@ height: auto;
   width: 100%;
   height: 400px;
   overflow: hidden;
-  margin: 10vh 0;
+  margin-top: 10vh;;
 }
 @keyframes imgBox{
     0%{
@@ -287,4 +287,133 @@ height: auto;
     .carousel h1::after {
         width: 15%;
     }
+}
+.container-f{
+    overflow-y: hidden;
+    height: 374px;
+    width: 100%;
+    background: #ECFFF4;
+    display: flex;
+    /* flex-flow: row; */
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    /* justify-content: space-around; */
+    position: relative;
+}
+.goi{
+    background: white;
+    border-radius: 50%;
+    padding: 50px;
+    margin: 10px;
+    width: 371px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    z-index: 10;
+}
+.base{
+    overflow-y: hidden;
+    background: #DDF4D9;
+    height: 347px;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+.f-space{
+    width: 400px;
+}
+.list-1 {
+    display: flex;
+    /* flex-flow: row; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px auto; 
+    list-style-type: none; 
+}
+.list-1 li a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+line-height: 33px;
+
+}
+.list-2 {
+    display: flex;
+    /* flex-flow: column; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px auto;
+    list-style-type: none;
+}
+.list-2 li a{
+    color: black;
+    font-size: 24px;
+line-height: 33px;
+text-decoration: none;
+}
+.list-3 {
+    display: flex;
+    /* flex-flow: column; */
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 2px auto;
+    list-style-type: none;
+    
+}
+.list-3 li a{
+    text-decoration: none;
+    color: black;
+}
+.list-3 img{
+   display: inline-block;
+}
+.list-3 h1{
+   
+    font-size: 40px;
+line-height: 48px;
+}
+.call{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    font-size: 24px;
+}
+.call2{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 24px;
+}
+.copyright{
+    background: #ECFFF4;
+    display: flex;
+   justify-content: center;
+}
+.base span{
+    margin: 20px;
+    font-size: 44px;
+    line-height: 52px;
+    text-decoration: underline;
+    color: rgb(172, 164, 164);
+    background: none;
+}
+.socials{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.socials img{
+    width: 285px;
+    height: 285px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
 }
