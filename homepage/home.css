@@ -67,7 +67,7 @@ nav span{
   flex-direction:row-reverse;
 } */
 .part-2{
-    height: 380px;
+    height: 100%;
 }
 .part-2 span{
     margin: 5vh 0;
